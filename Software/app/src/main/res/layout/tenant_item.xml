@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    xmlns:tools="http://schemas.android.com/tools">
+    >
+    <TextView
+        android:id="@+id/tv_tenant_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        tools:text="Ime i prezime" />
+    <TextView
+        android:id="@+id/tv_tenant_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="0911112232" />
+</LinearLayout>

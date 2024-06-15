@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_owner_starting_activity"
+            android:title="@string/menu_home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item
+            android:id="@+id/menu_owner_contracts"
+            android:title="@string/menu_contracts"
+            android:icon="@drawable/ic_baseline_article_24"/>
+        <item
+            android:id="@+id/menu_add_flat_owner"
+            android:title="@string/add_flat"
+            android:icon="@drawable/ic_baseline_add_home_24"/>
+        <item
+            android:id="@+id/menu_rents_owner"
+            android:title="@string/menu_rents"
+            android:icon="@drawable/ic_baseline_payment_24"/>
+        <item
+            android:id="@+id/menu_chat_owner"
+            android:title="@string/menu_chat_with_tenants"
+            android:icon="@drawable/ic_baseline_chat_24"/>
+        <item
+            android:id="@+id/menu_log_out_owner"
+            android:title="@string/menu_log_out"
+            android:icon="@drawable/ic_baseline_logout_24"/>
+    </group>
+</menu>

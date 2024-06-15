@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+    android:layout_marginVertical="8dp"
+android:layout_marginHorizontal="15dp"
+android:elevation="10dp">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewTimeOfLastMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/message_time_10_30"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/textViewChannelName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/test_person_name"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewLastMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/chat_message_good_morning"
+        android:textSize="18sp" />
+
+</LinearLayout>
+
+</androidx.cardview.widget.CardView>
